@@ -1,5 +1,7 @@
 # teambition-demand-sync
 
+**English** · [简体中文](./README.zh-CN.md)
+
 A hourly-friendly sync that mirrors a **Teambition project view** into a
 **MySQL "demand pool"**, so you can query, aggregate, and report on tasks
 with plain SQL — without paying for Teambition's data export tier.
