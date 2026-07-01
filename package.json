@@ -1,0 +1,21 @@
+{
+  "name": "teambition-demand-sync",
+  "version": "0.1.0",
+  "description": "Mirror a Teambition project view into MySQL via a logged-in Chrome CDP session.",
+  "license": "MIT",
+  "main": "scripts/tb_sync.js",
+  "bin": {
+    "tb-sync": "scripts/tb_sync.js"
+  },
+  "scripts": {
+    "start": "node scripts/tb_sync.js",
+    "sync": "node scripts/tb_sync.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mysql2": "^3.9.0",
+    "ws": "^8.16.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "teambition": {
+    "host": "www.teambition.com",
+    "projectId": "<your-teambition-project-id>",
+    "viewId": "<your-teambition-view-id>",
+    "pageSize": 200,
+    "filter": null,
+    "contactField": "customer_contact",
+    "merchantPhonePattern": "1\\d{10}",
+    "customFields": {
+      "customer_contact": "<customfield-id-for-contact>",
+      "menu": "<customfield-id-for-menu-or-module>",
+      "demand_type": "<customfield-id-for-demand-type>",
+      "priority": "<customfield-id-for-priority>"
+    }
+  },
+  "cdp": {
+    "port": 9222,
+    "autoLaunchChrome": false,
+    "chromeBinary": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "userDataDir": null
+  },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "database": "teambition_demand",
+    "charset": "utf8mb4",
+    "tables": {
+      "demand": "demand",
+      "demand_change_log": "demand_change_log",
+      "demand_sync_log": "demand_sync_log"
+    }
+  },
+  "log": {
+    "timezone": "Asia/Shanghai"
+  }
+}
